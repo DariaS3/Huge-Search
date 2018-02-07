@@ -36,13 +36,24 @@ div.Lists-field {
 	padding-right: 100px;
 	padding-left: 100px;
 	padding-top: 30px;
-
+	font-size: 0px;
 }
 div.Lists-field div {
 	display: inline-block;
 	vertical-align: middle;
-	width: 33%;
-	font-size: 0px;
+	width: 33.3%;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+div.People-list {
+	padding-right: 10px;
+}
+div.Popular-list {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+div.Recent-list {
+	padding-left: 10px;
 }
 ul {
 	list-style: none;
@@ -55,7 +66,7 @@ h1 {
 	margin: 0px;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	font-size: 16px;
+
 }
 .round_icon img {
 	border-radius: 50%;
@@ -64,7 +75,6 @@ h1 {
 li {
 	background-color: rgba(118,117,128,0.05);
 	margin-top: 4px;
-	font-size: 16px;
 	color: #c2c2c2;
 	border-radius: 10%;
 }
